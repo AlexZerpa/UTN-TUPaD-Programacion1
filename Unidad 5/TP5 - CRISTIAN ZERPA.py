@@ -167,7 +167,10 @@ while True:
         print("Entrada invalida. Por favor ingrese numeros entre 1 y 3.")
 
 # EJERCICIO 10
-ventas = [[10,20,15,25,30,18,20],[5,12,8,10,15,9,11],[25,30,28,35,40,32,38],[8,15,11,19,21,14,16]]
+ventas=[[10,20,15,25,30,18,20],
+        [5,12,8,10,15,9,11],
+        [25,30,28,35,40,32,38],
+        [8,15,11,19,21,14,16]]
 
 print("Ventas totales por producto:")
 for i in range(len(ventas)):
